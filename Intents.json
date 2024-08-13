@@ -1,0 +1,1048 @@
+{
+      "intents": [
+        {
+          "intent": "Wedding",
+          "text": [
+            "wedding"
+          ],
+          "responses": [
+            "Event: Wedding\nDate: 2024-10-15\nPlace: Chennai, Tamil Nadu\nTiming: 6:00 PM\nDetails: Join us to celebrate the union of [Name] and [Name] in a beautiful wedding ceremony. The event will include a reception and dinner."
+          ],
+          "extension": {
+            "function": "",
+            "entities": false,
+            "responses": []
+          },
+          "context": {
+            "in": "",
+            "out": "WeddingEventDetails",
+            "clear": false
+          },
+          "entityType": "NA",
+          "entities": []
+        },
+        {
+          "intent": "BirthdayParty",
+          "text": [
+            "birthday party"
+          ],
+          "responses": [
+            "Event: Birthday Party\nDate: 2024-11-20\nPlace: Coimbatore, Tamil Nadu\nTiming: 4:00 PM\nDetails: Celebrate [Name]'s special day with a fun-filled birthday party. Enjoy games, music, and cake!"
+          ],
+          "extension": {
+            "function": "",
+            "entities": false,
+            "responses": []
+          },
+          "context": {
+            "in": "",
+            "out": "BirthdayPartyEventDetails",
+            "clear": false
+          },
+          "entityType": "NA",
+          "entities": []
+        },
+        {
+          "intent": "Anniversary",
+          "text": [
+            "anniversary"
+          ],
+          "responses": [
+            "Event: Anniversary\nDate: 2024-12-05\nPlace: Madurai, Tamil Nadu\nTiming: 7:00 PM\nDetails: Celebrate [Name] and [Name]'s anniversary with an evening of dining and reminiscing about the years together."
+          ],
+          "extension": {
+            "function": "",
+            "entities": false,
+            "responses": []
+          },
+          "context": {
+            "in": "",
+            "out": "AnniversaryEventDetails",
+            "clear": false
+          },
+          "entityType": "NA",
+          "entities": []
+        },
+        {
+          "intent": "Graduation",
+          "text": [
+            "graduation"
+          ],
+          "responses": [
+            "Event: Graduation\nDate: 2024-10-10\nPlace: Tiruchirappalli, Tamil Nadu\nTiming: 3:00 PM\nDetails: Celebrate the graduation of [Name] from [School/University]. Join us for a ceremony followed by a reception."
+          ],
+          "extension": {
+            "function": "",
+            "entities": false,
+            "responses": []
+          },
+          "context": {
+            "in": "",
+            "out": "GraduationEventDetails",
+            "clear": false
+          },
+          "entityType": "NA",
+          "entities": []
+        },
+        {
+          "intent": "BabyShower",
+          "text": [
+            "baby shower"
+          ],
+          "responses": [
+            "Event: Baby Shower\nDate: 2024-11-12\nPlace: Salem, Tamil Nadu\nTiming: 2:00 PM\nDetails: Join us for a baby shower to celebrate the upcoming arrival of [Name]'s baby. Enjoy games, gifts, and a fun time with friends and family."
+          ],
+          "extension": {
+            "function": "",
+            "entities": false,
+            "responses": []
+          },
+          "context": {
+            "in": "",
+            "out": "BabyShowerEventDetails",
+            "clear": false
+          },
+          "entityType": "NA",
+          "entities": []
+        },
+        {
+          "intent": "Quinceañera",
+          "text": [
+            "quinceañera"
+          ],
+          "responses": [
+            "Event: Quinceañera\nDate: 2024-10-25\nPlace: Vellore, Tamil Nadu\nTiming: 5:00 PM\nDetails: Celebrate the 15th birthday of [Name] with a traditional Quinceañera. An important cultural event in Latin American communities."
+          ],
+          "extension": {
+            "function": "",
+            "entities": false,
+            "responses": []
+          },
+          "context": {
+            "in": "",
+            "out": "QuinceañeraEventDetails",
+            "clear": false
+          },
+          "entityType": "NA",
+          "entities": []
+        },
+        {
+          "intent": "RetirementParty",
+          "text": [
+            "retirement party"
+          ],
+          "responses": [
+            "Event: Retirement Party\nDate: 2024-12-15\nPlace: Erode, Tamil Nadu\nTiming: 6:00 PM\nDetails: Celebrate the retirement of [Name] with a party honoring their career and achievements. Join us for an evening of appreciation and fun."
+          ],
+          "extension": {
+            "function": "",
+            "entities": false,
+            "responses": []
+          },
+          "context": {
+            "in": "",
+            "out": "RetirementPartyEventDetails",
+            "clear": false
+          },
+          "entityType": "NA",
+          "entities": []
+        },
+        {
+          "intent": "FarewellParty",
+          "text": [
+            "farewell party"
+          ],
+          "responses": [
+            "Event: Farewell Party\nDate: 2024-11-01\nPlace: Kancheepuram, Tamil Nadu\nTiming: 4:00 PM\nDetails: Bid farewell to [Name] as they embark on a new journey. An evening to celebrate their time with us and wish them well."
+          ],
+          "extension": {
+            "function": "",
+            "entities": false,
+            "responses": []
+          },
+          "context": {
+            "in": "",
+            "out": "FarewellPartyEventDetails",
+            "clear": false
+          },
+          "entityType": "NA",
+          "entities": []
+        },
+        {
+          "intent": "Diwali",
+          "text": [
+            "diwali"
+          ],
+          "responses": [
+            "Event: Diwali\nDate: 2024-10-30\nPlace: Tirunelveli, Tamil Nadu\nTiming: 7:00 PM\nDetails: Celebrate the Festival of Lights with us. Enjoy an evening of lights, fireworks, and festive cheer."
+          ],
+          "extension": {
+            "function": "",
+            "entities": false,
+            "responses": []
+          },
+          "context": {
+            "in": "",
+            "out": "DiwaliEventDetails",
+            "clear": false
+          },
+          "entityType": "NA",
+          "entities": []
+        },
+        {
+          "intent": "Holi",
+          "text": [
+            "holi"
+          ],
+          "responses": [
+            "Event: Holi\nDate: 2024-12-20\nPlace: Nagercoil, Tamil Nadu\nTiming: 11:00 AM\nDetails: Join us for the Festival of Colors. Celebrate with vibrant colors, music, and dance."
+          ],
+          "extension": {
+            "function": "",
+            "entities": false,
+            "responses": []
+          },
+          "context": {
+            "in": "",
+            "out": "HoliEventDetails",
+            "clear": false
+          },
+          "entityType": "NA",
+          "entities": []
+        },
+        {
+          "intent": "Eid",
+          "text": [
+            "eid"
+          ],
+          "responses": [
+            "Event: Eid\nDate: 2024-11-25\nPlace: Thanjavur, Tamil Nadu\nTiming: 10:00 AM\nDetails: Celebrate Eid with us. Enjoy traditional foods, prayers, and festivities marking the end of Ramadan."
+          ],
+          "extension": {
+            "function": "",
+            "entities": false,
+            "responses": []
+          },
+          "context": {
+            "in": "",
+            "out": "EidEventDetails",
+            "clear": false
+          },
+          "entityType": "NA",
+          "entities": []
+        },
+        {
+          "intent": "Christmas",
+          "text": [
+            "christmas"
+          ],
+          "responses": [
+            "Event: Christmas\nDate: 2024-12-24\nPlace: Pondicherry, Tamil Nadu\nTiming: 8:00 PM\nDetails: Join us for a festive Christmas celebration. Enjoy music, decorations, and seasonal cheer."
+          ],
+          "extension": {
+            "function": "",
+            "entities": false,
+            "responses": []
+          },
+          "context": {
+            "in": "",
+            "out": "ChristmasEventDetails",
+            "clear": false
+          },
+          "entityType": "NA",
+          "entities": []
+        },
+        {
+          "intent": "GaneshChaturthi",
+          "text": [
+            "ganesh chaturthi"
+          ],
+          "responses": [
+            "Event: Ganesh Chaturthi\nDate: 2024-10-05\nPlace: Chennai, Tamil Nadu\nTiming: 5:00 PM\nDetails: Celebrate Ganesh Chaturthi with us. Participate in prayers, processions, and festive activities honoring Lord Ganesha."
+          ],
+          "extension": {
+            "function": "",
+            "entities": false,
+            "responses": []
+          },
+          "context": {
+            "in": "",
+            "out": "GaneshChaturthiEventDetails",
+            "clear": false
+          },
+          "entityType": "NA",
+          "entities": []
+        }, {
+            "intent": "Greeting",
+            "text": [
+                  "Hi",
+                  "Hi there",
+                  "Hola",
+                  "Hello",
+                  "Hello there",
+                  "Hya",
+                  "Hya there",
+                  "Hey",
+                  "Hey there",
+                  "Hiya",
+                  "Greetings",
+                  "Good day",
+                  "Howdy",
+                  "What's up",
+                  "How's it going",
+                  "Yo",
+                  "Hi everyone",
+                  "Hello everyone",
+                  "Hey everyone",
+                  "Hi all",
+                  "Hello all",
+                  "Hi folks",
+                  "Hello folks",
+                  "Hey folks",
+                  "Hi friends",
+                  "Hello friends",
+                  "Hey friends",
+                  "Hi team",
+                  "Hello team",
+                  "Hey team",
+                  "Hi buddy",
+                  "Hello buddy",
+                  "Hey buddy",
+                  "Hi mate",
+                  "Hello mate",
+                  "Hey mate",
+                  "Hi pal",
+                  "Hello pal",
+                  "Hey pal",
+                  "Hi there",
+                  "Hello there",
+                  "Hey there",
+                  "Hi there",
+                  "Hello there",
+                  "Hey there",
+                  "Hiya there",
+                  "Hello there",
+                  "Hey there",
+                  "Hi there",
+                  "Hello there",
+                  "Hey there"
+            ],
+            "responses": [
+                  "Hi human, how can I assist you today?",
+                  "Hello human, how can I help you?",
+                  "Hola human, how can I assist you?",
+                  "Hi there! How can I help you?",
+                  "Hello there! How can I assist you?",
+                  "Hey! How can I help you?",
+                  "Hi! How can I assist you?",
+                  "Hello! How can I help you?",
+                  "Hey there! How can I assist you?",
+                  "Greetings! How can I help you?",
+                  "Good day! How can I assist you?",
+                  "Howdy! How can I help you?",
+                  "What's up? How can I assist you?",
+                  "How's it going? How can I help you?",
+                  "Yo! How can I assist you?",
+                  "Hi everyone! How can I help you?",
+                  "Hello everyone! How can I assist you?",
+                  "Hey everyone! How can I help you?",
+                  "Hi all! How can I assist you?",
+                  "Hello all! How can I help you?",
+                  "Hi folks! How can I assist you?",
+                  "Hello folks! How can I help you?",
+                  "Hey folks! How can I assist you?",
+                  "Hi friends! How can I help you?",
+                  "Hello friends! How can I assist you?",
+                  "Hey friends! How can I help you?",
+                  "Hi team! How can I assist you?",
+                  "Hello team! How can I help you?",
+                  "Hey team! How can I assist you?",
+                  "Hi buddy! How can I help you?",
+                  "Hello buddy! How can I assist you?",
+                  "Hey buddy! How can I help you?",
+                  "Hi mate! How can I assist you?",
+                  "Hello mate! How can I help you?",
+                  "Hey mate! How can I assist you?",
+                  "Hi pal! How can I help you?",
+                  "Hello pal! How can I assist you?",
+                  "Hey pal! How can I help you?",
+                  "Hi there! How can I assist you?",
+                  "Hello there! How can I help you?",
+                  "Hey there! How can I assist you?",
+                  "Hiya! How can I help you?",
+                  "Greetings! How can I assist you?",
+                  "Good day! How can I help you?",
+                  "Howdy! How can I assist you?",
+                  "What's up? How can I help you?",
+                  "How's it going? How can I assist you?",
+                  "Yo! How can I help you?"
+            ],
+            "extension": {
+                  "function": "",
+                  "entities": false,
+                  "responses": []
+            },
+            "context": {
+                  "in": "",
+                  "out": "GreetingUserRequest",
+                  "clear": false
+            },
+            "entityType": "NA",
+            "entities": []
+      }, {
+            "intent": "CourtesyGreeting",
+            "text": [
+                  "How are you?",
+                  "Hi how are you?",
+                  "Hello how are you?",
+                  "Hola how are you?",
+                  "How are you doing?",
+                  "Hope you are doing well?",
+                  "Hello hope you are doing well?",
+                  "How’s everything?",
+                  "How’s it going?",
+                  "How have you been?",
+                  "How are things?",
+                  "How’s your day?",
+                  "How’s your week going?",
+                  "How’s life treating you?",
+                  "How are you feeling today?",
+                  "Hope you’re having a great day!",
+                  "Hi, how’s your day been?",
+                  "Hello, how’s everything going?",
+                  "How’s your day so far?",
+                  "How’s your week been?",
+                  "How’s life?",
+                  "Hope you’re doing well!",
+                  "Hi, hope you’re having a good day!",
+                  "Hello, how’s your day going?",
+                  "How are you today?",
+                  "How’s everything with you?",
+                  "How’s your day treating you?",
+                  "Hi, how are things with you?",
+                  "Hello, how’s your day been so far?",
+                  "How are things going?",
+                  "How’s your mood today?",
+                  "How are you feeling?",
+                  "How’s everything on your end?",
+                  "Hi, how’s life treating you?",
+                  "Hello, how’s your week been?",
+                  "How’s it all going?",
+                  "How’s your day treating you so far?",
+                  "How have you been doing?",
+                  "How’s everything been for you?",
+                  "Hope you’re doing great!",
+                  "Hi, how’s everything on your side?",
+                  "Hello, how’s your week been so far?",
+                  "How’s your day going?",
+                  "How’s your day treating you?",
+                  "Hi, how have you been?",
+                  "Hello, how’s life?",
+                  "How’s everything with you today?",
+                  "How’s your day been?",
+                  "How’s your mood today?",
+                  "Hi, how’s your week going?",
+                  "Hello, how’s everything going today?",
+                  "How’s it all going with you?",
+                  "How’s your day treating you today?",
+                  "Hi, hope you’re having a great day!"
+            ],
+            "responses": [
+                  "Hello, I am great, how are you? Please tell me your GeniSys user",
+                  "Hello, how are you? I am great thanks! Please tell me your GeniSys user",
+                  "Hello, I am good thank you, how are you? Please tell me your GeniSys user",
+                  "Hi, I am great, how are you? Please tell me your GeniSys user",
+                  "Hi, how are you? I am great thanks! Please tell me your GeniSys user",
+                  "Hi, I am good thank you, how are you? Please tell me your GeniSys user",
+                  "Hi, good thank you, how are you? Please tell me your GeniSys user",
+                  "Hello, I’m doing well, thank you! How about you? Please tell me your GeniSys user",
+                  "Hi, I’m good! How are you? Please tell me your GeniSys user",
+                  "Hello! I’m doing great, thanks! How are you? Please tell me your GeniSys user",
+                  "Hi there, I’m good! How about you? Please tell me your GeniSys user",
+                  "Hello, I’m doing fine! How are you doing? Please tell me your GeniSys user",
+                  "Hi, all good here! How about you? Please tell me your GeniSys user",
+                  "Hello, I’m great, thanks! How are things with you? Please tell me your GeniSys user",
+                  "Hi, I’m doing well, thanks! How’s everything with you? Please tell me your GeniSys user",
+                  "Hello! I’m doing well, how about you? Please tell me your GeniSys user",
+                  "Hi, I’m doing good! What about you? Please tell me your GeniSys user",
+                  "Hello, I’m great, thanks for asking! How are you? Please tell me your GeniSys user",
+                  "Hi, I’m doing well! How’s your day going? Please tell me your GeniSys user",
+                  "Hello, I’m good, thanks! How’s everything with you? Please tell me your GeniSys user",
+                  "Hi, I’m doing great! How about you? Please tell me your GeniSys user",
+                  "Hello, I’m doing good! How’s your day so far? Please tell me your GeniSys user",
+                  "Hi there, I’m well! How are you doing? Please tell me your GeniSys user",
+                  "Hello, I’m good! How are things with you? Please tell me your GeniSys user",
+                  "Hi, I’m doing well! How’s everything? Please tell me your GeniSys user",
+                  "Hello! I’m doing great! How are you? Please tell me your GeniSys user",
+                  "Hi, I’m doing fine! How’s your day been? Please tell me your GeniSys user",
+                  "Hello, I’m great, thanks! How are you doing? Please tell me your GeniSys user",
+                  "Hi there, I’m doing well! How are you? Please tell me your GeniSys user",
+                  "Hello! I’m doing well, thank you! How are you? Please tell me your GeniSys user",
+                  "Hi, I’m good! How’s your day treating you? Please tell me your GeniSys user",
+                  "Hello, I’m great! How’s everything with you? Please tell me your GeniSys user",
+                  "Hi, I’m doing well, thanks! How’s your day going? Please tell me your GeniSys user",
+                  "Hello, I’m good! How’s your day treating you? Please tell me your GeniSys user",
+                  "Hi there! I’m doing great! How are you? Please tell me your GeniSys user",
+                  "Hello, I’m doing fine! How are you doing? Please tell me your GeniSys user",
+                  "Hi, I’m good! How are you today? Please tell me your GeniSys user",
+                  "Hello! I’m doing well, thanks! How about you? Please tell me your GeniSys user",
+                  "Hi, I’m doing great! How’s everything? Please tell me your GeniSys user",
+                  "Hello, I’m well! How’s your day been? Please tell me your GeniSys user",
+                  "Hi, I’m good, thanks! How’s your week been? Please tell me your GeniSys user",
+                  "Hello, I’m doing great! How about you? Please tell me your GeniSys user",
+                  "Hi, I’m doing fine! How’s your day been so far? Please tell me your GeniSys user",
+                  "Hello, I’m great! How are things with you? Please tell me your GeniSys user",
+                  "Hi there, I’m doing well! How are you today? Please tell me your GeniSys user",
+                  "Hello! I’m good, thanks! How’s your week been? Please tell me your GeniSys user",
+                  "Hi, I’m doing great! How’s your day treating you? Please tell me your GeniSys user"
+             
+            ],
+            "extension":  {
+                  "function": "",
+                  "entities": false,
+                  "responses": []
+            },
+            "context":  {
+                  "in": "",
+                  "out": "CourtesyGreetingUserRequest",
+                  "clear": true
+            },
+            "entityType": "NA",
+            "entities": []
+      }, {
+            "intent": "NameQuery",
+            "text": [
+                  "What is your name?",
+                  "What could I call you?",
+                  "What can I call you?",
+                  "What do your friends call you?",
+                  "Who are you?",
+                  "Tell me your name?"
+            ],
+            "responses": [
+                  "You can call me Geni",
+                  "You may call me Geni",
+                  "Call me Geni"
+            ],
+            "extension":  {
+                  "function": "",
+                  "entities": false,
+                  "responses": []
+            },
+            "context":  {
+                  "in": "",
+                  "out": "",
+                  "clear": false
+            },
+            "entityType": "NA",
+            "entities": []
+      }, {
+            "intent": "RealNameQuery", 
+            "text": [
+                  "What is your name?",
+                  "What could I call you?",
+                  "What can I call you?",
+                  "What do your friends call you?",
+                  "Who are you?",
+                  "Tell me your name?",
+                  "How should I address you?",
+                  "What name should I use for you?",
+                  "What do you go by?",
+                  "What should I call you?",
+                  "How do you prefer to be called?",
+                  "What's your name?",
+                  "What do people call you?",
+                  "Can you tell me your name?",
+                  "What name do you go by?",
+                  "How do you like to be addressed?",
+                  "What is your preferred name?",
+                  "How should I refer to you?",
+                  "What name do you use?",
+                  "What do I call you?",
+                  "What is your preferred title?",
+                  "What name do you respond to?",
+                  "How should I call you?",
+                  "What name do you go by?",
+                  "What name can I use for you?",
+                  "How do I address you?",
+                  "What is your official name?",
+                  "What is your name in the system?",
+                  "What name are you known by?",
+                  "What name should I use?",
+                  "What do you prefer to be called?",
+                  "What’s your designation?",
+                  "What name is used for you?",
+                  "What should I call this assistant?",
+                  "How do you want to be addressed?",
+                  "What name do you prefer?",
+                  "How should I address this assistant?",
+                  "What’s the name I should use?",
+                  "What do you like to be called?",
+                  "What is your name, if you have one?",
+                  "What should I refer to you as?",
+                  "What name is appropriate for you?",
+                  "What do you call yourself?",
+                  "What’s your identity?",
+                  "How should I name you?",
+                  "What name can I call you by?",
+                  "How should I address this entity?",
+                  "What name suits you best?",
+                  "What do you like to be called?"
+            ],
+            "responses": [
+                "You can call me Geni.",
+  "You may call me Geni.",
+  "Call me Geni.",
+  "Feel free to call me Geni.",
+  "You can address me as Geni.",
+  "Just call me Geni.",
+  "I go by Geni.",
+  "You can refer to me as Geni.",
+  "My name is Geni.",
+  "I’m Geni, nice to meet you!",
+  "Call me Geni if you like.",
+  "You may use Geni to call me.",
+  "Geni is the name you can use for me.",
+  "Feel free to call me Geni.",
+  "Geni is what I go by.",
+  "I prefer being called Geni.",
+  "Refer to me as Geni.",
+  "Just use Geni when addressing me.",
+  "You can name me Geni.",
+  "You can call me by Geni.",
+  "My preferred name is Geni.",
+  "You may call me by the name Geni.",
+  "Geni is how I am known.",
+  "Use Geni to refer to me.",
+  "I respond to Geni.",
+  "Geni is what you can call me.",
+  "Call me by the name Geni.",
+  "Geni is what I prefer.",
+  "Feel free to use Geni for me.",
+  "Geni is the name I go by.",
+  "You can call me Geni if you like.",
+  "I am Geni, how can I assist you?",
+  "My name is Geni, nice to meet you.",
+  "Geni is the name I use.",
+  "I’m known as Geni.",
+  "Address me as Geni.",
+  "You can use Geni to call me.",
+  "Call me Geni, that’s my name.",
+  "You should call me Geni.",
+  "My preferred name is Geni.",
+  "You can call me Geni at any time.",
+  "Geni is the name you should use.",
+  "I go by the name Geni.",
+  "Just call me Geni, that’s fine.",
+  "Feel free to call me by Geni."
+            ],
+            "extension":  {
+                  "function": "",
+                  "entities": false,
+                  "responses": []
+            },
+            "context":  {
+                  "in": "",
+                  "out": "",
+                  "clear": false
+            },
+            "entityType": "NA",
+            "entities": []
+      }, {
+            "intent": "Thanks",
+            "text": [
+                  "OK thank you",
+                  "OK thanks",
+                  "OK",
+                  "Thanks",
+                  "Thank you",
+                  "That's helpful",
+                  "I appreciate it",
+                  "Thanks a lot",
+                  "Thank you very much",
+                  "Thanks so much",
+                  "Much appreciated",
+                  "Thanks for your help",
+                  "Thanks for that",
+                  "I’m grateful",
+                  "I appreciate your help",
+                  "Thank you for your assistance",
+                  "Thanks for the support",
+                  "Thank you kindly",
+                  "Thanks for your time",
+                  "Thank you for your assistance",
+                  "I appreciate it a lot",
+                  "Thanks for everything",
+                  "Thanks for your efforts",
+                  "I’m thankful",
+                  "Thank you for helping",
+                  "I’m appreciative",
+                  "Thank you for your help",
+                  "Many thanks",
+                  "Thanks for the info",
+                  "Thanks for your assistance",
+                  "Thanks a bunch",
+                  "Thanks for the support",
+                  "Thank you very much indeed",
+                  "I appreciate the help",
+                  "Thank you for your support",
+                  "Thanks for being so helpful",
+                  "I’m thankful for your help",
+                  "Thanks for the help",
+                  "I appreciate your assistance",
+                  "Thanks for your help today",
+                  "Thank you for your help today",
+                  "Thanks for your time and effort",
+                  "I appreciate your time",
+                  "Thanks for the guidance",
+                  "Thank you for your guidance",
+                  "I’m grateful for your help",
+                  "Thanks for the advice",
+                  "Thanks for your patience",
+                  "Thank you for your patience",
+                  "Thanks for everything you do",
+                  "Thank you for everything",
+                  "Thanks for your help with this",
+                  "I’m very thankful",
+                  "Thanks for all the help"
+              ],
+              "responses": [
+                  "No problem!",
+                  "Happy to help!",
+                  "Any time!",
+                  "My pleasure!",
+                  "You’re welcome!",
+                  "Glad to be of assistance!",
+                  "It was my pleasure!",
+                  "Always here to help!",
+                  "No worries!",
+                  "Glad I could help!",
+                  "Happy to assist!",
+                  "It’s my pleasure!",
+                  "I’m happy to help!",
+                  "You’re welcome anytime!",
+                  "It was no trouble!",
+                  "Always happy to help!",
+                  "Glad to be of help!",
+                  "No problem at all!",
+                  "I’m here to help!",
+                  "It was my pleasure to assist!",
+                  "Don’t mention it!",
+                  "Anytime, happy to help!",
+                  "Happy to be of assistance!",
+                  "It’s all part of the job!",
+                  "Glad you found it helpful!",
+                  "No trouble at all!",
+                  "I’m glad I could assist!",
+                  "I’m pleased to help!",
+                  "Always here to support!",
+                  "I’m happy to be of service!",
+                  "It was nothing!",
+                  "Glad I could be of assistance!",
+                  "It’s always a pleasure!",
+                  "Happy to be here for you!",
+                  "Glad to help out!",
+                  "I’m glad to assist!",
+                  "No problem, happy to help!",
+                  "I’m glad you found it useful!",
+                  "It’s what I’m here for!",
+                  "I’m always here to assist!",
+                  "Happy to provide help!",
+                  "You’re welcome, happy to assist!",
+                  "Glad to be of service!",
+                  "It was a pleasure to assist!",
+                  "I’m pleased I could help!",
+                  "I’m always ready to help!"
+              ],
+            "extension":  {
+                  "function": "",
+                  "entities": false,
+                  "responses": []
+            },
+            "context":  {
+                  "in": "",
+                  "out": "",
+                  "clear": false
+            },
+            "entityType": "NA",
+            "entities": []
+      }, {
+            "intent": "UnderstandQuery",
+           "text": [
+  "Do you understand what I am saying",
+  "Do you understand me",
+  "Do you know what I am saying",
+  "Do you get me",
+  "Comprendo",
+  "Know what I mean",
+  "Can you understand me",
+  "Do you grasp what I’m saying",
+  "Are you following me",
+  "Do you get my point",
+  "Are you with me",
+  "Are you catching what I’m saying",
+  "Do you comprehend",
+  "Is my message clear",
+  "Can you make sense of what I’m saying",
+  "Are you understanding",
+  "Is what I’m saying clear to you",
+  "Can you understand what I’m saying",
+  "Do you follow my words",
+  "Do you get the idea",
+  "Can you grasp my meaning",
+  "Is my point coming across",
+  "Do you see what I mean",
+  "Are you picking up on this",
+  "Can you decipher what I’m saying",
+  "Are you understanding my message",
+  "Do you catch my drift",
+  "Can you follow my train of thought",
+  "Do you know what I’m talking about",
+  "Are you getting my message",
+  "Are you understanding my words",
+  "Can you interpret what I’m saying",
+  "Do you comprehend my point",
+  "Is what I’m saying making sense",
+  "Are you hearing me clearly",
+  "Can you follow what I’m saying",
+  "Do you understand the gist",
+  "Can you get my meaning",
+  "Are you catching my message",
+  "Do you follow my explanation",
+  "Can you make sense of this",
+  "Are you understanding my explanation",
+  "Is my message being understood",
+  "Do you catch what I’m saying",
+  "Can you interpret my words",
+  "Are you getting the idea"
+],
+"responses": [
+  "Well I would not be a very clever AI if I did not, would I?",
+  "I read you loud and clear!",
+  "I do indeed!",
+  "Yes, I understand you perfectly!",
+  "I’m following you well!",
+  "Absolutely, I get what you’re saying!",
+  "I understand your message clearly!",
+  "Yes, I’m catching on!",
+  "I’m with you on this!",
+  "Indeed, I comprehend!",
+  "I get your point!",
+  "I hear you loud and clear!",
+  "Yes, I understand your words!",
+  "I grasp what you’re saying!",
+  "Certainly, I follow what you’re saying!",
+  "I get it, no worries!",
+  "I understand the gist of it!",
+  "Absolutely, I’m on the same page!",
+  "Yes, your message is clear!",
+  "I’m catching every word!",
+  "Yes, I’m getting the idea!",
+  "I’m following your thoughts!",
+  "I see what you mean!",
+  "I get your drift!",
+  "Yes, I’m interpreting your message correctly!",
+  "I understand your explanation well!",
+  "I’m making sense of what you’re saying!",
+  "I’m clear on your point!",
+  "Yes, I’m picking up on your message!",
+  "I understand your communication!",
+  "Certainly, I’m with you!",
+  "I’m following your train of thought!",
+  "Yes, your point is coming across clearly!",
+  "I’m interpreting your words correctly!",
+  "I’m getting the meaning just fine!",
+  "Yes, I understand your words!",
+  "I’m catching what you’re putting down!",
+  "Absolutely, I’m understanding you!",
+  "Yes, I’m following your message!",
+  "I’m on board with what you’re saying!",
+  "I comprehend your message!",
+  "Certainly, I’m catching the idea!",
+  "I get your message clearly!"
+],
+            "extension":  {
+                  "function": "",
+                  "entities": false,
+                  "responses": []
+            },
+            "context":  {
+                  "in": "",
+                  "out": "",
+                  "clear": false
+            },
+            "entities": []
+      },  {
+            "intent": "GoodBye",
+            "text": [
+                  "Bye",
+  "Adios",
+  "See you later",
+  "Goodbye",
+  "Later",
+  "Farewell",
+  "Catch you later",
+  "See you soon",
+  "Take care",
+  "Bye bye",
+  "So long",
+  "Until next time",
+  "Goodbye for now",
+  "Have a great day",
+  "See you next time",
+  "Take it easy",
+  "Have a good one",
+  "Bye for now",
+  "Have a nice day",
+  "Talk to you later",
+  "Bye for now",
+  "Catch you later",
+  "I'll see you around",
+  "Be well",
+  "Have a good day",
+  "Goodbye and take care",
+  "See you around",
+  "Goodbye and have a great day",
+  "See you soon",
+  "Catch you later",
+  "Have a good rest of your day",
+  "Until next time",
+  "Goodbye and stay safe",
+  "Wishing you all the best",
+  "Goodbye and take care",
+  "Talk to you soon",
+  "See you next time",
+  "Have a wonderful day",
+  "Goodbye for now",
+  "Take care and goodbye",
+  "See you in a while",
+  "Have a nice evening",
+  "Goodbye and have a great evening",
+  "Until we meet again",
+  "Have a good night",
+  "Goodbye and sweet dreams"  
+            ],
+            "responses": [
+                  "See you later",
+  "Have a nice day",
+  "Bye! Come back again soon.",
+  "Take care and see you soon!",
+  "Wishing you a great day ahead!",
+  "Until next time!",
+  "Have a wonderful day!",
+  "Looking forward to our next chat!",
+  "See you next time!",
+  "Have a good one!",
+  "Catch you later!",
+  "Goodbye, and stay safe!",
+  "Hope to talk to you again soon!",
+  "Take care, and see you around!",
+  "Goodbye, and have a great day!",
+  "Farewell for now!",
+  "Until we meet again!",
+  "Have a great rest of your day!",
+  "See you in a while!",
+  "Goodbye, and have a fantastic evening!",
+  "Take care, and talk to you soon!"
+            ],
+            "extension":  {
+                  "function": "",
+                  "entities": false,
+                  "responses": []
+            },
+            "context":  {
+                  "in": "",
+                  "out": "",
+                  "clear": false
+            },
+            "entityType": "NA",
+            "entities": []
+      }, {
+            "intent": "CourtesyGoodBye",
+            "text": [
+  "Thanks, bye",
+  "Thanks for the help, goodbye",
+  "Thank you, bye",
+  "Thank you, goodbye",
+  "Thanks goodbye",
+  "Thanks good bye",
+  "Thank you for your assistance, goodbye",
+  "Thanks for everything, goodbye",
+  "Thanks for your help, see you later",
+  "Thank you for your help, have a good day",
+  "I appreciate your help, goodbye",
+  "Thanks a lot, goodbye",
+  "Thank you so much, goodbye",
+  "Thanks for your support, goodbye",
+  "Thanks for your help, catch you later",
+  "Thank you for the help, take care",
+  "Thanks, see you next time",
+  "Thank you, have a great day",
+  "Thanks, have a nice day",
+  "Thank you for your help, see you later",
+  "Thanks for your assistance, see you soon",
+  "Thanks for your time, goodbye",
+  "Thanks for everything, see you next time",
+  "Thank you for your support, have a great day",
+  "Thanks for your help, goodbye for now",
+  "Thank you, talk to you later",
+  "Thanks, have a great rest of your day",
+  "Thank you for your assistance, have a good day",
+  "Thanks for your help, have a great evening",
+  "Thank you for everything, take care",
+  "Thanks, and have a wonderful day",
+  "Thank you, and see you next time",
+  "Thanks, and talk to you soon",
+  "Thank you for everything, and take care",
+  "Thanks, and have a lovely day",
+  "Thank you for the assistance, and goodbye",
+  "Thanks, and catch you later",
+  "Thank you, and see you around",
+  "Thanks, and have a good night",
+  "Thank you for your help, and stay safe",
+  "Thanks, and see you in a while",
+  "Thank you for your support, and take care",
+  "Thanks, and have a great evening",
+  "Thank you, and see you again soon",
+  "Thanks for the help, and have a good one"
+],
+"responses": [
+  "No problem, goodbye",
+  "Not a problem! Have a nice day",
+  "Bye! Come back again soon.",
+  "You're welcome! Have a great day",
+  "It was my pleasure. Goodbye!",
+  "Glad I could help! See you next time",
+  "Happy to assist! Have a wonderful day",
+  "No trouble at all! Take care",
+  "Anytime! Goodbye and take care",
+  "My pleasure! Have a nice day",
+  "You're welcome! Catch you later",
+  "It was great helping you! Goodbye",
+  "Glad I could help. See you later",
+  "You're welcome! Have a great day ahead",
+  "Not a problem! Hope to see you again",
+  "Anytime! Have a great evening",
+  "Glad to assist! Goodbye for now",
+  "You're welcome! See you around",
+  "Happy to help! Have a lovely day",
+  "Glad to be of assistance! Take care"
+],
+            "extension":  {
+                  "function": "",
+                  "entities": false,
+                  "responses": []
+            },
+            "context":  {
+                  "in": "",
+                  "out": "",
+                  "clear": false
+            },
+            "entityType": "NA",
+            "entities": []
+      }
+
+       
+      ]
+    }
+    
